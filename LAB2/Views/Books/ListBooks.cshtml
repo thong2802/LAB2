@@ -12,7 +12,8 @@
                     <div class="panel panel-default">
                         <div class="panel panel-heading">
                             @item.Title
-                            @Html.ActionLink("Edit", "Edit", new {id=item.Id}, new {@class="pull-right"})
+   
+                            @Html.ActionLink("Edit", "Edit", new { id = item.Id }, new {@class="pull-right" })
                         </div>
                         <div class="panel-body">
                             <p>
@@ -24,7 +25,7 @@
                             <p>
                                 <strong>Price : </strong>@item.price
                             </p>
-                            <p> <img src="/@item.Cover" alt="hinh thumail" /> </p>
+                            <p> <img src="/@item.Cover" alt="hinh thumail" width="300" height="400"> </p>
                         </div>
                         <div class="panel-footer clearfix">
                             <div class="pull-right">
